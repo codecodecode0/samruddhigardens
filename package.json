@@ -1,7 +1,7 @@
 {
   "name": "wed-planner",
   "version": "0.1.0",
-  "homepage": "https://codecodecode0.github.io/wedplanner",
+  "homepage": "https://codecodecode0.github.io/samruddhigardens",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
