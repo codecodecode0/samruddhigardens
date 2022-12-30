@@ -45,32 +45,31 @@ const A = styled.a`
 
 const Div = styled.div`
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    gap: 64px;
-    margin-top: 28px;
+    margin-left: 16px;
 `;
 
-export const Footer: React.FunctionComponent = () => {
-
+export const Footer: React.FunctionComponent<{
+    isMobile: boolean
+}> = (props) => {
+    const { isMobile } = props;
     return (
         <DivC>
         <FooterDiv>
-            {/* <ul className='d-flex flex-wrap justify-content-center align-items-center py-4'> */}
             <Ul>
                 <div>
                     <img src={require('../../images/logo5.png')} alt='Cocos' height='64px' />
                 </div>
-                <Div>
+                <Div style={{gap: isMobile ? '8px' : '64px', flexDirection: isMobile ? 'column' : 'row', marginTop: isMobile ? '0' : '28px'}}>
                     <div>
                         <A href='mailto:samruddhi.gardens.bhokardan@gmail.com' className='dark-blue' color='#00649a'>samruddhi.gardens.bhokardan@gmail.com</A>
                     </div>
                     <div>
-                        Contact No.: +91 7507325654
+                    Contact No.: <A href='tel:+91 7507325654' className='dark-blue' color='#00649a'>+91 7507325654</A>
+                         
                     </div>
                 </Div>
                 </Ul>
-            {/* </ul> */}
         </FooterDiv>
         </DivC>
     );

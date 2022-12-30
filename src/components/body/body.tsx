@@ -3,7 +3,8 @@ import styled from 'styled-components';
 
 const Video = styled.video`
     text-align: center;
-    margin-top: 16px;
+    max-width: 100vw;
+    position: relative;
     justify-content: center;
 `;
 

@@ -8,36 +8,39 @@ const Container = styled.div`
     margin-left: 64px;
     margin-bottom: 16px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 `;
 
-export const Dashboard: React.FunctionComponent = () => {
+export const Dashboard: React.FunctionComponent<{
+    setPage: any,
+    isMobile: boolean
+}> = (props) => {
+    const { setPage, isMobile } = props
     return (
-        <Container>
+        <Container style={{flexDirection: isMobile ? 'column' : 'row'}}>
             <DashboardCard
                 text='Experienced photographers to cover your wedding'
                 title='Photographers'
                 imagePath={require('../../images/photographer.jpg')}
-                navPath='/photographers'
+                onClick={() => setPage('photographers')}
             />
             <DashboardCard
                 text='Choose from the best decorators for your event'
                 title='Decorators'
                 imagePath={require('../../images/decorator.jpg')}
-                navPath='/decorators'
+                onClick={() => setPage('decorators')}
             />
             <DashboardCard
                 text='Select customized set for your stage'
                 title='Sets'
                 imagePath={require('../../images/sets.jpg')}
-                navPath='/sets'
+                onClick={() => setPage('sets')}
             />
             <DashboardCard
                 text='Check out our photos'
                 title='Photos'
                 imagePath={require('../../images/lawns.jpg')}
-                navPath='/photos'
+                onClick={() => setPage('photos')}
             />
         </Container>
     );

@@ -26,27 +26,36 @@ background-color: var(--cui-card-bg);
 --cui-card-img-overlay-padding: 1rem;
 --cui-card-group-margin: 0.75rem;
 word-wrap: break-word;
-cursor: pointer;
+margin-bottom: 1rem!important;
+`;
+
+const Div = styled.div`
+    text-align: center;
+    margin: auto;
 `;
 
 export interface ICardProps {
-    title: string,
-    text: string,
+    textBody?: JSX.Element,
     imagePath: any,
-    onClick: () => void,
+    onClick?: () => void,
 }
 
-export const DashboardCard: React.FunctionComponent<ICardProps> = (props) => {
+export const ContactCard: React.FunctionComponent<ICardProps> = (props) => {
     return (
-            <StyledCard style={{ width: '18rem', margin: '12px' }} onClick={props.onClick}>
-            <CCardImage orientation="top" src={props.imagePath} style={{ width: '18rem' }} />
-            <CCardBody>
-            <CCardTitle>{props.title}</CCardTitle>
-          
-          <CCardText>
-            {props.text}
-        </CCardText>
-    </CCardBody>
-            </StyledCard>
+        <Div>
+        <StyledCard style={{maxWidth: '36rem'}}>
+            <div style={{display: 'flex'}}>
+            <CCardImage src={props.imagePath} style={{ width: '20rem' }} />
+            { props.textBody && (
+                <div style={{marginTop: '32px', marginLeft: '8px', marginRight: '8px', textAlign: 'center', verticalAlign: 'middle'}}>
+                <CCardBody>
+                    {props.textBody}
+                </CCardBody>
+                </div>)
+            }
+            </div>
+  
+</StyledCard>
+</Div>
     );
 }
