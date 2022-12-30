@@ -1,23 +1,27 @@
 {
   "files": {
     "main.css": "/samruddhigardens/static/css/main.073c9b0a.css",
-    "main.js": "/samruddhigardens/static/js/main.e851dc24.js",
+    "main.js": "/samruddhigardens/static/js/main.b3fba5f2.js",
     "static/js/787.29eedd1d.chunk.js": "/samruddhigardens/static/js/787.29eedd1d.chunk.js",
     "static/media/video.mp4": "/samruddhigardens/static/media/video.b582987c292fb9a444e7.mp4",
     "static/media/footer.jpg": "/samruddhigardens/static/media/footer.71de4290c438c7012ba6.jpg",
+    "static/media/abhi1.png": "/samruddhigardens/static/media/abhi1.32750882f47f1649d531.png",
+    "static/media/vedu.png": "/samruddhigardens/static/media/vedu.d1ed7651ea00805be402.png",
     "static/media/sets.jpg": "/samruddhigardens/static/media/sets.1e8b2410268ccaeec36b.jpg",
+    "static/media/sai.png": "/samruddhigardens/static/media/sai.0eecf7c65905fcdef959.png",
     "static/media/lawns.jpg": "/samruddhigardens/static/media/lawns.c0bbc5043a0ec6ddfd7a.jpg",
+    "static/media/pushkar.png": "/samruddhigardens/static/media/pushkar.8711eca8d79a137bc98d.png",
     "static/media/decorator.jpg": "/samruddhigardens/static/media/decorator.8be825e2311fed607efe.jpg",
     "static/media/photographer.jpg": "/samruddhigardens/static/media/photographer.7391bcac86ffc7d7e6df.jpg",
     "static/media/logo.png": "/samruddhigardens/static/media/logo.7e02d05aa7eac2299dd3.png",
     "static/media/logo5.png": "/samruddhigardens/static/media/logo5.490ffa9dd4360815cbde.png",
     "index.html": "/samruddhigardens/index.html",
     "main.073c9b0a.css.map": "/samruddhigardens/static/css/main.073c9b0a.css.map",
-    "main.e851dc24.js.map": "/samruddhigardens/static/js/main.e851dc24.js.map",
+    "main.b3fba5f2.js.map": "/samruddhigardens/static/js/main.b3fba5f2.js.map",
     "787.29eedd1d.chunk.js.map": "/samruddhigardens/static/js/787.29eedd1d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.e851dc24.js"
+    "static/js/main.b3fba5f2.js"
   ]
 }
