@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/samruddhigardens/static/css/main.073c9b0a.css",
-    "main.js": "/samruddhigardens/static/js/main.f6b993eb.js",
+    "main.js": "/samruddhigardens/static/js/main.0a9fc123.js",
     "static/js/787.29eedd1d.chunk.js": "/samruddhigardens/static/js/787.29eedd1d.chunk.js",
     "static/media/video.mp4": "/samruddhigardens/static/media/video.b582987c292fb9a444e7.mp4",
     "static/media/footer.jpg": "/samruddhigardens/static/media/footer.71de4290c438c7012ba6.jpg",
@@ -13,11 +13,11 @@
     "static/media/logo5.png": "/samruddhigardens/static/media/logo5.490ffa9dd4360815cbde.png",
     "index.html": "/samruddhigardens/index.html",
     "main.073c9b0a.css.map": "/samruddhigardens/static/css/main.073c9b0a.css.map",
-    "main.f6b993eb.js.map": "/samruddhigardens/static/js/main.f6b993eb.js.map",
+    "main.0a9fc123.js.map": "/samruddhigardens/static/js/main.0a9fc123.js.map",
     "787.29eedd1d.chunk.js.map": "/samruddhigardens/static/js/787.29eedd1d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.f6b993eb.js"
+    "static/js/main.0a9fc123.js"
   ]
 }
